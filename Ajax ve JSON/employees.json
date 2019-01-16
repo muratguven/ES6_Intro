@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Murat Güven",
+        "department":"Software Development",
+        "salary":"3"
+    },
+    {
+        "name":"A B",
+        "department":"Software Development",
+        "salary":"5"
+    },
+    {
+        "name":"C D",
+        "department":"IT",
+        "salary":"10"
+    }
+
+]
