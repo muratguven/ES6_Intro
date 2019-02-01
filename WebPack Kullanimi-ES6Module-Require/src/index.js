@@ -17,3 +17,38 @@ Person.Test();
 Employee.Test();
 console.log("Hello WebPack Adamsın!");
 
+// Fonksiyon export örneği kullanımı (Require) 
+// Require ile kullandığımız module fonksiyonu app değişkenine atıyoruz.
+const app = require('./module');
+// Artık fonk. olarak kullanabiliriz.
+console.log(app);
+//module1();
+
+// exportları obje olarak döndüğümüzde
+
+// app.test1();
+// app.test2();
+
+
+// Obje olarak tanımlama kullanım örneği;
+console.log(app.name);
+app.test1();
+console.log(app.person);
+
+// ES6 ile EXPORT işlemi için IMPORT Kullanımı
+// bu import için dosya içerisindeki her export elemanını böyle tek tek yazmamak için import * şekilde kullanabiliriz.
+import { name, test3 } from './es6modules';
+console.log(name);
+test3();
+
+import * as esmodule from './es6modules';
+
+
+
+esmodule.Employee.personTest();
+
+// Default export için import kullanımı
+// Default olduğundan dolayı Burada süslü parantez kullanımı yani destructing yapısı kullanılmıyor.
+import Deneme from './es6modules';
+
+Deneme.deneme();
