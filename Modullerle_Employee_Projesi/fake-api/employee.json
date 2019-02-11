@@ -3,7 +3,7 @@
     {
       "name": "Murat Güven",
       "department": "Software Development",
-      "salary": 6000,
+      "salary": 12000,
       "id": 1
     },
     {
@@ -11,12 +11,6 @@
       "department": "Software Development",
       "salary": 8000,
       "id": 2
-    },
-    {
-      "name": "aaaa",
-      "department": "aaaa",
-      "salary": "22222",
-      "id": 3
     }
   ]
 }
